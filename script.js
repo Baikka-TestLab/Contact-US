@@ -3,7 +3,7 @@
    script.jshttps://baikka-testlab.app.n8n.cloud/webhook/55036a0a-a866-478e-8fe7-bb6ce06c6a9b
    ============================================================ */
 
-const N8N_URL = "https://baikka-testlab.app.n8n.cloud/webhook-test/Contact-Us";
+const N8N_URL = "https://baikka-testlab.app.n8n.cloud/webhook-test/contactUS";
 
 /**
  * Mark a field valid or invalid and return the result.
