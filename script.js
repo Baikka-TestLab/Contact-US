@@ -35,7 +35,7 @@ async function submitForm() {
   const nameOk    = validate('name',    name.length > 1);
   const emailOk   = validate('email',   gmailRx.test(email));
   const serviceOk = validate('service', service !== '');
-  const budgetOk  = validate('budget',  budget.length > 0);
+  const budgetOk  = validate('budget', !isNaN(budget) && budget > 0);
 
   if (!nameOk || !emailOk || !serviceOk || !budgetOk) return;
 
