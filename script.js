@@ -28,7 +28,7 @@ async function submitForm() {
   const company = document.getElementById('company').value.trim();
   const role    = document.getElementById('role').value.trim();
   const service = document.getElementById('service').value;
-  const budget  = document.getElementById('budget').value.trim();
+  const budget = Number(document.getElementById('budget').value);
 
   const gmailRx = /^[a-zA-Z0-9._%+\-]+@gmail\.com$/i;
 
